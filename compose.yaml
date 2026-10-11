@@ -1,0 +1,5 @@
+services:
+  employee-attrition:
+    build: .
+    image: employee-attrition
+    container_name: employee-attrition-app
